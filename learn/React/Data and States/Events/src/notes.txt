@@ -1,0 +1,27 @@
+Events listen to actions, capture it, then do something with it
+Ex: when button is clicked, that action is captured using onClick which is an event 
+
+Types of Events
+1. Clipboard -> onCopy, onCut, onPaste
+2. Mouse events -> onDoubleClick, onMouseDown, onMouseEnter, onMouseOver, ...
+3. keyboard -> onKeyDown, onKeyPress
+4. Touch -> onTouchStart, onTouchMove, 
+
+
+Difference in HTML and JSX Events 
+1 Events are not invoked in react but passed by reference 
+    ex: onclick 
+    HTML => <button onclick = "clickedHandler()";
+    JSX => <button onClick ={clickedHandler}>
+
+2. React allows function declaring to be passed as props 
+    ex: Counter is a function 
+        return (
+        <Counter /> /can also pass a property that will be accessed with props. see below 
+        <Count starter = {2} /> 
+    )
+
+Expressions can be written inside event handlers in many ways
+1. Inline anonymous ES6 function
+2. Separate functions declaration 
+3. Separate function expression(funs that starts with "function")
