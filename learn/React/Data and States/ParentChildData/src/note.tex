@@ -1,0 +1,34 @@
+Parent to child relationship using prop. 
+
+Useful when updating same info on multiple functions
+
+To modify info on multiple functions, create a parent function and use it to make the changes on the
+child functions using props 
+
+Sample
+parent = Promo and child = promoChild
+
+import promoChild from location 
+Promo(){
+    //create obl to hold info to display 
+    const info = { 
+        percent: "30% off",
+        promoInfo: "Buy today"}
+
+    return(
+        div
+    //Now pass info to child 
+
+    <promoChild percentInfo = {info.percent}
+    <promoChild mypromoinfo = {info.promoInfo}
+        div
+    )
+}
+
+
+//promoChild component that will receive props and display info
+promoChild(props){
+    <h2?> {props.percentInfo}</h2?
+    <h2?> {props.mypromoinfo}</h2?
+
+}

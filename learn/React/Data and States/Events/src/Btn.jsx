@@ -16,7 +16,7 @@ const Btn = () => {
      <div> <button onClick={() =>console.log('Testing 1')}>Inline EC6 function event handler </button></div>
 
       {/*Event handler with function declaration (starts with function) */}
-      <div> <button onClick={test2}>Handler with function declaration  </button> </div>
+      <div> <button onClick={test2}> andler with function declaration </button> </div>
 
       {/*Event handler with function expression */}
       <div> <button onClick={handleExpre}>handler with function expression </button></div>

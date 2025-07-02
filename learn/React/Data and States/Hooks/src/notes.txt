@@ -1,0 +1,10 @@
+Hook: Allows components to access states and other react features 
+
+Hook Rules: 
+1. Only be called inside react function components 
+2. Called at the top level of a components 
+3. Cannot be conditional 
+
+Example hook:  useState
+ex: const [count, setCount]
+setCount acts like a function and we pass count as argument. What ever we do to count is reflected in setcount
