@@ -1,7 +1,8 @@
 import { useReducer } from "react";
 
 {/*useReducer practice 1: 
-    building counter app      
+    building counter app 
+    more testing     
 */}
 
 {/*Creating types for state and action which will be automatically inferred in the code
