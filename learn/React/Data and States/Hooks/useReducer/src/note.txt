@@ -14,3 +14,5 @@ Logic of the game = reducer function which does the following
 2. Which button is pressed (action -> dispatch)
 3. what should happen next (new state -> reducer())
 
+testing
+
