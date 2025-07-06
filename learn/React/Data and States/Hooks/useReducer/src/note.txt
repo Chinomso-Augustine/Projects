@@ -1,0 +1,16 @@
+useReducer: way of managing states based on patterns or specific action from reducer function 
+Different from useState cux usestate directly modifies states 
+
+Syntax: const [state, dispatch] = useReducer(reducer, initialState)
+
+Analogy: 
+let state be telling a story. Instead of changing the whole story we could have an action such as turn to 
+next page. This action will be dispatch to a reducer and the reducer returns the next verson of the 
+story
+
+Analogy 2: Playing game with buttons -> state, pause, move left, move right 
+Logic of the game = reducer function which does the following 
+1. What is happening before game start (state); 
+2. Which button is pressed (action -> dispatch)
+3. what should happen next (new state -> reducer())
+
