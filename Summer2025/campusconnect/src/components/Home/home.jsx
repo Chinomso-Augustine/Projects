@@ -9,7 +9,7 @@ function Home() {
                 <h1 className="text-5xl text-center font-bold">Connect with <span className="text-purple-300"> Campus Services</span>
                 </h1>
 
-                <p className="text-2xl text-center mt-9 mb-9">Find tutoring, tech support, creative services, and more from fellow students on campus.
+                <p className="text-2xl text-center mt-8 mb-9">Find tutoring, tech support, creative services, and more from fellow students on campus.
                     Quality services at student-friendly prices. </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
